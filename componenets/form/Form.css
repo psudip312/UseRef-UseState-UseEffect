@@ -1,0 +1,34 @@
+.makeithidden{
+    display: none;
+}
+.uploadButton {
+    /* Remove default styles */
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+  
+    /* Add custom styles */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .uploadButton:hover {
+    background-color: #d3d3d3;
+  }
+  
+  .uploadButton:active {
+    background-color: #c1c1c1;
+  }
+  
+  .uploadButton i {
+    /* Adjust icon styles as needed */
+    font-size: 20px;
+  }
+  
+  
